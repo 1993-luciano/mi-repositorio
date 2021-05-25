@@ -1,0 +1,180 @@
+header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{ 
+    Color:#45637d;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    animation-duration: 4s;
+    animation-name: aparecer;    
+}
+
+@keyframes aparecer 	{ 
+    0.5%  	{
+        opacity: -2;
+    } 
+    100%   {
+        opacity: 4;
+    }
+}
+p{ 
+    Color:black;
+    font-size: 20pt;
+    font-family: 'Dela Gothic One';
+    
+}
+#menu{ 
+    font-size: 20pt;
+    height: 80px;
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+}
+#menu li{
+    text-decoration: none;
+    align-self: center;
+    padding: 50px;
+    display: inline;
+}
+#menu li a{
+    color: black;
+    text-decoration: none;
+    align-self: center;
+    padding: 10px;
+    display: inline-block;
+    transform: rotatey(45deg) scale(1.0);
+    color: black;
+    transition: color 0.5s;
+}
+#menu li a:hover{
+    color:blue;
+    
+}
+body {
+    
+    background-image:linear-gradient(to bottom, #E3F2FD , #8AA29E);
+    background-size: cover;
+}
+
+.container {
+    min-height: 80vh;
+    text-align: center;
+
+}
+.box {
+    background: gray;
+    padding: 20px;
+    color:white;
+    text-align: center;
+   }
+   @media screen and (min-width: 320px ) {
+    h1 {
+       font-size: 32px;
+    }
+}
+   @media screen and (min-width: 768px) {
+    h1 {
+       font-size: 45px;
+    }
+}
+    @media screen and (min-width: 1200px) {
+    h1 {
+       font-size: 48px;
+    }
+}
+.flex {
+  display: flex;
+  text-align: center;
+   }
+.precio {
+    font-size: 50px;
+    font-weight: bolder;
+     }
+h2 { 
+
+     Color:blue;
+    
+     margin-top: 2rem;
+    
+     font-size: 25pt;
+    
+     font-family: 'Dela Gothic One';
+    
+    }
+h3{ 
+        Color:blue;
+        font-size: 25pt;
+        font-family: 'Dela Gothic One';
+         }
+
+          
+.wrapper  {       
+          max-width: 1200px;
+          margin: 0 auto;
+          display: grid;
+          grid-gap: 5rem;
+          grid-template-columns: repeat(3, 1fr);
+          height: 750px;
+    }
+
+.Paquete{ 
+    width: 420px;
+    margin-right: 10px;
+    float: none;
+    margin: 0 auto;
+    background-color:#45637d;
+    text-align: center;
+    
+             }
+.Paquete__Personalizado{ 
+         grid-column: 2; 
+         color: #DB5461;
+         font-weight: bold;
+
+         }
+.paquete__titulo{ 
+    color: #DB5461;
+    font-weight: bolder;
+    text-shadow: #000 0px 0px 1px; 
+     
+
+}
+.paquete__incluye{ 
+    color: #DB5461;
+    font-weight: bold;
+}  
+
+
+.info{ 
+    color:#45637d;
+    font-size: 35px;
+}  
+.informacion{ 
+    color: #DB5461;
+    font-weight: bold;
+    height:calc(125px + 1em);
+    text-align: justify;
+}  
+
+.escritura{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    font-size: 1rem;
+    display: inline-grid;
+    padding: 12%;
+    font-size: 150%;
+}
+#footer{
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+}

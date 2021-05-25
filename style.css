@@ -1,0 +1,13 @@
+.escritura {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+  font-size: 1rem;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  padding: 12%;
+  font-size: 150%;
+}
+/*# sourceMappingURL=style.css.map */
